@@ -204,7 +204,7 @@ public class Collect extends Application {
     }
 
     public String getVersionedAppName() {
-        String versionName = BuildConfig.VERSION_NAME;
+        String versionName = "";
         versionName = " " + versionName.replaceFirst("-", "\n");
         return getString(R.string.app_name) + versionName;
     }
